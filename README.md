@@ -1,5 +1,5 @@
 # A Generic CLI
-##Concurrent Processing of Long-Running Tasks
+## Concurrent Processing of Long-Running Tasks
 
 The `main.go` program demonstrates how to perform concurrent processing of long-running tasks using goroutines and channels in Go. The program reads a list of `Thing` objects from a CSV file, and then uses goroutines to create each `Thing` object in parallel. The progress of each `Thing` creation is displayed using an ASCII progress bar.
 Progress bars are implemented by using Vladimir Bauer - vbauerster [mpb](https://github.com/vbauerster/mpb) package.
